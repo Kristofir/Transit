@@ -1,29 +1,42 @@
 {
-  "name": "",
+  "name": "transit",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "react-router build",
-    "dev": "react-router dev",
+    "dev": "export NODE_ENV=development; react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "test": "npx jest --config jest.config.js",
+    "gentypes": "npx supabase gen types typescript --project-id 'xgxsdhzzhoumysdmvvhu' --schema public > app/types/database.types.ts"
   },
   "dependencies": {
     "@react-router/node": "^7.2.0",
     "@react-router/serve": "^7.2.0",
+    "@supabase/supabase-js": "^2.49.1",
+    "@types/mapbox-gl": "^3.4.1",
+    "comlink": "^4.4.2",
     "isbot": "^5.1.17",
+    "mapbox-gl": "^3.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "^7.2.0"
+    "react-map-gl": "^8.0.1",
+    "react-router": "^7.2.0",
+    "supabase": "^2.19.7",
+    "usehooks-ts": "^3.1.1"
   },
   "devDependencies": {
     "@react-router/dev": "^7.2.0",
     "@tailwindcss/vite": "^4.0.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/jest": "^29.5.14",
     "@types/node": "^20",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
+    "jest": "^29.7.0",
     "react-router-devtools": "^1.1.0",
     "tailwindcss": "^4.0.0",
+    "ts-jest": "^29.2.5",
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
     "vite-tsconfig-paths": "^5.1.4"

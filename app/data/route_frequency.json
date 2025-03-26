@@ -1,0 +1,462 @@
+[
+  {
+    "route": "PH",
+    "time_span": "07:00-22:00",
+    "morning": 20,
+    "midday": 10,
+    "evening": 10,
+    "late_night": 20
+  },
+  {
+    "route": "PM",
+    "time_span": "07:00-22:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 15,
+    "late_night": 20
+  },
+  {
+    "route": "C",
+    "time_span": "07:00-22:00",
+    "morning": 20,
+    "midday": 10,
+    "evening": 15,
+    "late_night": 20
+  },
+  {
+    "route": "F",
+    "time_span": "07:00-22:00",
+    "morning": 20,
+    "midday": 12,
+    "evening": 12,
+    "late_night": 20
+  },
+  {
+    "route": "J",
+    "time_span": "05:00-00:00",
+    "morning": 15,
+    "midday": 15,
+    "evening": 17,
+    "late_night": 20
+  },
+  {
+    "route": "K",
+    "time_span": "06:00-00:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 15,
+    "late_night": 20
+  },
+  {
+    "route": "T",
+    "time_span": "06:00-00:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 12,
+    "late_night": 20
+  },
+  {
+    "route": "L",
+    "time_span": "06:00-22:00",
+    "morning": 8,
+    "midday": 8,
+    "evening": 12,
+    "late_night": 20,
+    "owl": 20
+  },
+  {
+    "route": "M",
+    "time_span": "06:00-00:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 15,
+    "late_night": 20
+  },
+  {
+    "route": "N",
+    "time_span": "00:00-24:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 15,
+    "late_night": 20,
+    "owl": 30
+  },
+  {
+    "route": "1",
+    "time_span": "05:00-00:00",
+    "morning": 6,
+    "midday": 8,
+    "evening": 9,
+    "late_night": 15
+  },
+  {
+    "route": "1X",
+    "time_span": "07:15-08:20,16:30-17:30",
+    "morning": 15,
+    "midday": 30
+  },
+  {
+    "route": "2",
+    "time_span": "06:30-19:00",
+    "morning": 20,
+    "midday": 20
+  },
+  {
+    "route": "5",
+    "time_span": "00:00-24:00",
+    "morning": 12,
+    "midday": 10,
+    "evening": 12,
+    "late_night": 20,
+    "owl": 30
+  },
+  {
+    "route": "5R",
+    "time_span": "07:00-19:00",
+    "morning": 12,
+    "midday": 12
+  },
+  {
+    "route": "6",
+    "time_span": "05:00-00:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 20,
+    "late_night": 20
+  },
+  {
+    "route": "7",
+    "time_span": "05:00-22:00",
+    "morning": 12,
+    "midday": 12,
+    "evening": 15
+  },
+  {
+    "route": "8",
+    "time_span": "05:00-00:00",
+    "morning": 8,
+    "midday": 8,
+    "evening": 12,
+    "late_night": 15
+  },
+  {
+    "route": "8AX",
+    "time_span": "06:30-09:20,15:30-18:50",
+    "morning": 8,
+    "midday": 8
+  },
+  {
+    "route": "8BX",
+    "time_span": "06:30-09:00,15:30-18:30",
+    "morning": 8,
+    "midday": 8
+  },
+  {
+    "route": "9",
+    "time_span": "05:00-00:00",
+    "morning": 12,
+    "midday": 12,
+    "evening": 12,
+    "late_night": 20
+  },
+  {
+    "route": "9R",
+    "time_span": "07:00-18:00",
+    "morning": 12,
+    "midday": 12
+  },
+  {
+    "route": "12",
+    "time_span": "07:00-19:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 20
+  },
+  {
+    "route": "12",
+    "time_span": "06:00-22:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 20
+  },
+  {
+    "route": "14",
+    "time_span": "00:00-24:00",
+    "morning": 9,
+    "midday": 10,
+    "evening": 12,
+    "late_night": 15,
+    "owl": 15
+  },
+  {
+    "route": "14R",
+    "time_span": "05:00-22:00",
+    "morning": 10,
+    "midday": 12,
+    "evening": 14
+  },
+  {
+    "route": "15",
+    "time_span": "05:00-22:00",
+    "morning": 12,
+    "midday": 12,
+    "evening": 12
+  },
+  {
+    "route": "18",
+    "time_span": "05:00-00:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 20,
+    "late_night": 30
+  },
+  {
+    "route": "19",
+    "time_span": "05:00-00:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 15,
+    "late_night": 30
+  },
+  {
+    "route": "22",
+    "time_span": "00:00-24:00",
+    "morning": 8,
+    "midday": 10,
+    "evening": 12,
+    "late_night": 15,
+    "owl": 20
+  },
+  {
+    "route": "23",
+    "time_span": "06:00-00:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 20,
+    "late_night": 30
+  },
+  {
+    "route": "24",
+    "time_span": "05:00-00:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 15,
+    "late_night": 20
+  },
+  {
+    "route": "25",
+    "time_span": "06:00-19:00",
+    "morning": 20,
+    "midday": 20
+  },
+  {
+    "route": "28",
+    "time_span": "05:00-00:00",
+    "morning": 12,
+    "midday": 12,
+    "evening": 15,
+    "late_night": 20
+  },
+  {
+    "route": "28R",
+    "time_span": "07:00-19:00",
+    "morning": 12,
+    "midday": 12
+  },
+  {
+    "route": "29",
+    "time_span": "05:00-00:00",
+    "morning": 12,
+    "midday": 12,
+    "evening": 15,
+    "late_night": 30
+  },
+  {
+    "route": "30",
+    "time_span": "05:00-00:00",
+    "morning": 8,
+    "midday": 10,
+    "evening": 12,
+    "late_night": 20
+  },
+  {
+    "route": "31",
+    "time_span": "05:00-00:00",
+    "morning": 12,
+    "midday": 12,
+    "evening": 15,
+    "late_night": 30
+  },
+  {
+    "route": "33",
+    "time_span": "05:00-00:00",
+    "morning": 12,
+    "midday": 12,
+    "evening": 15,
+    "late_night": 30
+  },
+  {
+    "route": "35",
+    "time_span": "06:30-22:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 30
+  },
+  {
+    "route": "36",
+    "time_span": "06:30-22:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 30
+  },
+  {
+    "route": "37",
+    "time_span": "06:00-22:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 30
+  },
+  {
+    "route": "38",
+    "time_span": "00:00-24:00",
+    "morning": 5,
+    "midday": 7,
+    "evening": 8,
+    "late_night": 15,
+    "owl": 20
+  },
+  {
+    "route": "38R",
+    "time_span": "05:00-22:00",
+    "morning": 7,
+    "midday": 7,
+    "evening": 8
+  },
+  {
+    "route": "39",
+    "time_span": "10:00-19:00",
+    "morning": 20,
+    "midday": 20
+  },
+  {
+    "route": "43",
+    "time_span": "05:00-00:00",
+    "morning": 12,
+    "midday": 12,
+    "evening": 15,
+    "late_night": 30
+  },
+  {
+    "route": "44",
+    "time_span": "05:00-00:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 12,
+    "late_night": 30
+  },
+  {
+    "route": "45",
+    "time_span": "05:00-00:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 12,
+    "late_night": 20
+  },
+  {
+    "route": "48",
+    "time_span": "05:00-00:00",
+    "morning": 10,
+    "midday": 10,
+    "evening": 12,
+    "late_night": 20
+  },
+  {
+    "route": "49",
+    "time_span": "00:00-24:00",
+    "morning": 9,
+    "midday": 10,
+    "evening": 12,
+    "late_night": 15,
+    "owl": 20
+  },
+  {
+    "route": "52",
+    "time_span": "06:00-22:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 30
+  },
+  {
+    "route": "54",
+    "time_span": "05:00-00:00",
+    "morning": 15,
+    "midday": 15,
+    "evening": 20,
+    "late_night": 30
+  },
+  {
+    "route": "56",
+    "time_span": "06:00-22:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 30
+  },
+  {
+    "route": "57",
+    "time_span": "06:00-22:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 30
+  },
+  {
+    "route": "58",
+    "time_span": "06:00-22:00",
+    "morning": 30,
+    "midday": 30,
+    "evening": 30
+  },
+  {
+    "route": "66",
+    "time_span": "06:00-22:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 30
+  },
+  {
+    "route": "67",
+    "time_span": "06:00-22:00",
+    "morning": 20,
+    "midday": 20,
+    "evening": 30
+  },
+  {
+    "route": "90",
+    "time_span": "00:00-24:00",
+    "owl": 30
+  },
+  {
+    "route": "91",
+    "time_span": "00:00-24:00",
+    "owl": 30
+  },
+  {
+    "route": "714",
+    "time_span": "00:00-24:00",
+    "owl": 30
+  },
+  {
+    "route": "L-Owl",
+    "time_span": "00:00-24:00",
+    "owl": 30
+  },
+  {
+    "route": "N-Owl",
+    "time_span": "00:00-24:00",
+    "owl": 30
+  },
+  {
+    "route": "T-Owl",
+    "time_span": "00:00-24:00",
+    "owl": 30
+  }
+]
