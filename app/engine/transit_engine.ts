@@ -14,11 +14,9 @@ import type {
   FeatureCollection
 } from "geojson";
 
-
 import supabase from "~/services/supabaseClient";
 import * as geoconverter from "~/services/geoconverter";
 
-console.log("Starting engine")
 
 class EngineClass {
   vehicles : Vehicle[] = [];
@@ -75,6 +73,10 @@ class EngineClass {
     this.vehicleGeojson.features = this.vehicles.map((vehicle) => {
       return geoconverter.convert_vehicle_to_feature(vehicle);
     });
+  }
+
+  async query(vehicle_id: string | number): Promise<Vehicle | null> {
+    return this.vehicles.find(v => v.vehicle_id == vehicle_id) || null;
   }
   
   getVehicles(): FeatureCollection {

@@ -8,6 +8,7 @@ import type {
 // Converts a Supabase row into a GeoJSON feature.
 export function convert_vehicle_to_feature(row: Vehicle): Feature {
   let feature: Feature = {
+    id: row.vehicle_id,
     type: "Feature",
     geometry: {
       type: "Point",
